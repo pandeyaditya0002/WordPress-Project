@@ -1,0 +1,220 @@
+/**
+  CSS rule of welcome admin before 1.3.4 update
+ */
+.appearance_page_flash-options .wrap {
+	margin-top: 0;
+}
+
+.appearance_page_flash-options .wrap .flash-header {
+	background-color: #fff;
+	padding: 12px 20px;
+	border-bottom: 1px solid #ccd0d4;
+	margin-left: -20px;
+	margin-right: -20px;
+}
+
+.flash-notice {
+	position: relative;
+	padding: 8px 40px 8px 8px;
+}
+
+.flash-notice .links {
+	margin: 1.2em 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flash-notice .links a {
+	margin-right: 10px;
+}
+
+.flash-notice .links a > span {
+	vertical-align: middle;
+	padding-right: 5px;
+}
+
+.flash-notice .notice-text .coupon-code {
+	display: inline-block;
+}
+
+.flash-notice .notice-dismiss {
+	text-decoration: none;
+}
+
+.flash-message__content {
+	display: flex;
+}
+
+.flash-message__content .flash-message__image {
+	flex: 0 0 160px;
+	min-height: 100px;
+	margin-right: 12px;
+	padding-right: 12px;
+	border-right: 1px solid #FCFCFD;
+}
+
+.flash-message__content .flash-message__image .flash-screenshot {
+	width: 100%;
+	box-shadow: 0 0 1px 0 #ccd0d4;
+	margin: 0;
+	float: none;
+}
+
+.flash-message__content .flash-message__heading {
+	margin-top: 0;
+	margin-bottom: 12px;
+	line-height: 1.4;
+}
+
+.flash-message__content .flash-message__cta {
+	display: flex;
+	align-items: center;
+}
+
+.flash-message__content .flash-message__cta .plugin-install-notice {
+	margin-left: 15px;
+	line-height: 1.4;
+}
+
+.flash-message__content .flash-message__cta a:before {
+	margin: 5px;
+	vertical-align: middle;
+}
+
+a.flash-message-close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 10px 15px 10px 21px;
+	font-size: 13px;
+	line-height: 1.23076923;
+	text-decoration: none;
+}
+
+a.flash-message-close:before {
+	position: absolute;
+	top: 8px;
+	left: 0;
+	-webkit-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+	.flash-message__content .flash-message__image {
+		display: none;
+	}
+}
+
+.wrap .flash-header {
+	background-color: #fff;
+	padding: 12px 20px;
+	border-bottom: 1px solid #ccd0d4;
+	margin-left: -20px;
+	margin-right: -20px;
+}
+
+.appearance_page_flash-options .wrap {
+	margin-top: 0;
+}
+
+@media (max-width: 768px) {
+	.flash-message__content .flash-screenshot {
+		display: none;
+	}
+	.flash-message__content .flash-message__text {
+		padding: 0;
+		width: 100%;
+	}
+}
+
+.flash-notice.theme-review-notice {
+	border-left-color: #6547DB;
+	padding: 20px 15px;
+}
+
+@media screen and (max-width: 768px) {
+	.flash-notice.theme-review-notice .flash-message__content {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+.flash-notice.theme-review-notice a.btn {
+	display: flex;
+	max-width: fit-content;
+	justify-content: center;
+	align-items: center;
+}
+
+.flash-notice.theme-review-notice .flash-message__image {
+	flex: 0;
+	min-height: auto;
+	margin-right: 35px;
+	margin-left: 10px;
+	padding-right: 0;
+	border-right: none;
+}
+
+.flash-notice.theme-review-notice .flash-logo--png {
+	width: 80px;
+	height: 80px;
+}
+
+.flash-notice.theme-review-notice h3 {
+	font-size: 21px;
+	margin: 0;
+	line-height: 1;
+	color: #000;
+}
+
+.flash-notice.theme-review-notice p {
+	font-size: 14px;
+	line-height: 21px;
+	color: #3C434A;
+	margin: 0 0 6px 0;
+	max-width: 720px;
+	padding: 2px 0;
+}
+
+.flash-notice.theme-review-notice span.dashicons.dashicons-smiley.smile-icon {
+	background: #f7e143;
+	border-radius: 50%;
+	font-size: 15px;
+	border: 1px solid;
+	width: 17px;
+	height: 17px;
+}
+
+.flash-notice.theme-review-notice .button-primary {
+	background: #6547DB;
+	border-color: #6547DB;
+	box-shadow: none;
+	color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+	.flash-notice.theme-review-notice .button-primary {
+		margin-bottom: 10px;
+	}
+}
+
+.flash-notice.theme-review-notice .button-secondary {
+	color: #6547DB;
+	border-color: #6547DB;
+	background: #f6f7f7;
+	vertical-align: top;
+}
+
+@media screen and (max-width: 768px) {
+	.flash-notice.theme-review-notice .button-secondary {
+		margin-bottom: 10px;
+	}
+}
+
+.flash-notice.theme-review-notice strong {
+	color: #000;
+}
+
+.flash-notice.theme-review-notice .links {
+	margin: 1.2em 0 5px 0;
+}
